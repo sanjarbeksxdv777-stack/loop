@@ -84,7 +84,7 @@ export default function Hero() {
         transition={{ duration: 1, delay: 3, ease: [0.16, 1, 0.3, 1] }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-muted-foreground"
       >
-        <span className="text-xs font-medium uppercase tracking-widest">Pastga</span>
+        <span className="text-xs font-medium uppercase tracking-widest"></span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
